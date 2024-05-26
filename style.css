@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hex-color {
+    background-color: #27d377;
+    width:500px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.btn-wrap {
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    max-width:100px;
+    width:100%;
+    border: 1px solid #ccc;
+    margin:0px 6px;
+    padding:6px 0px;
+    border-radius: 4px;
+    background-color: blue;
+    color:white;
+}
